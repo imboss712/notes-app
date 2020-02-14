@@ -1,34 +1,28 @@
-# cmd-calculator
-Calculator App developed in JavaScript and works in terminal. It takes input from terminal and shows output on terminal. It can perform Addition, Subtraction, Multiplication, Division on two or more inputs.
+# notes-app
+Notes App is developed in JavaScript and NodeJS and works in terminal. User provide specified input in terminal and get output in terminal. Notes App is used to create notes, read a note, remove a note and read all notes. In this app [Chalk](https://www.npmjs.com/package/chalk) and [Yargs](https://www.npmjs.com/package/yargs) npm packages has been used.
 
-## Commands : 
+## 
+Commands : 
 ###### ( Run commands in terminal )
 
-### For Addition
-``` node app.js add 2 3 4 ```
+### Create a New Note
+``` node index.js add --title="Read Books" --body="NodeJS In Action" ```
 
-### For Subtraction
-``` node app.js subtract 14 6 3 ```
+### Remove a Note
+``` node index.js remove --title="Read Books" ```
 
-### For Multiplication
-``` node app.js multiply 4 5 2 ```
+### Read a Note
+``` node index.js read --title="Read Books" ```
 
-### For Division
-``` node app.js div 20 5 2 ```
+### List All Notes
+``` node index.js list ```
 
-### For Command Options & Help
-```
-- node app.js command
-- node app.js help
-```
-                            
-### About Developer
-``` node app.js author ```
 
 ## Built With :
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [NodeJS](https://nodejs.org/en/)
 * [Chalk](https://www.npmjs.com/package/chalk)
+* [Yargs](https://www.npmjs.com/package/yargs)
 
 ## Developed By :
 * [Shashi Kant Yadav](https://github.com/shashikant712)
