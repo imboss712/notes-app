@@ -1,0 +1,25 @@
+{
+  "name": "notes_app",
+  "version": "1.0.0",
+  "description": "A Notes App to keep notes and do CRUD operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Notes",
+    "Yargs",
+    "CRUD",
+    "Terminal",
+    "cmd",
+    "cli",
+    "Chalk",
+    "console"
+  ],
+  "author": "Shashi Kant Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "yargs": "^15.1.0"
+  }
+}
