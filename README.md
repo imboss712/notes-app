@@ -1,8 +1,8 @@
-# notes-app
+# Notes-App
 Notes App is developed in JavaScript and NodeJS and works in terminal. User provide specified input in terminal and get output in terminal. Notes App is used to create notes, read a note, remove a note and read all notes. In this app [Chalk](https://www.npmjs.com/package/chalk) and [Yargs](https://www.npmjs.com/package/yargs) npm packages has been used.
 
-## 
-Commands : 
+
+## Commands : 
 ###### ( Run commands in terminal )
 
 ### Create a New Note
@@ -19,10 +19,10 @@ Commands :
 
 
 ## Built With :
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [NodeJS](https://nodejs.org/en/)
-* [Chalk](https://www.npmjs.com/package/chalk)
-* [Yargs](https://www.npmjs.com/package/yargs)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [NodeJS](https://nodejs.org/en/)
+- [Chalk](https://www.npmjs.com/package/chalk)
+- [Yargs](https://www.npmjs.com/package/yargs)
 
 ## Developed By :
 * [Shashi Kant Yadav](https://github.com/shashikant712)
